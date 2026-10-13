@@ -1,15 +1,16 @@
 <div align="center">
 
 ```
-███████╗██╗   ██╗██████╗  ██████╗ ██╗  ██╗
-╚══███╔╝╚██╗ ██╔╝██╔══██╗██╔═══██╗╚██╗██╔╝
-  ███╔╝  ╚████╔╝ ██████╔╝██║   ██║ ╚███╔╝ 
- ███╔╝    ╚██╔╝  ██╔══██╗██║   ██║ ██╔██╗ 
-███████╗   ██║   ██║  ██║╚██████╔╝██╔╝ ██╗
-╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝
+    _   _   _ ____   ___  ____    _    
+   / \ | | | |  _ \ / _ \|  _ \  / \   
+  / _ \| | | | |_) | | | | |_) |/ _ \  
+ / ___ \ |_| |  _ <| |_| |  _ </ ___ \ 
+/_/   \_\___/|_| \_\\___/|_| \_/_/   \_\
+
 ```
 
-<h3>ZyroX Bot — Python Discord Bot + FastAPI Backend</h3>
+<h3>Aurora Bot — Python Discord Bot + FastAPI Backend</h3>
+[FORKED FROM RAYEXO]
 
 <a href="https://nexiohost.in"><img src="https://img.shields.io/badge/⭐%20PREMIUM%20HOSTING-NexioHost-FFD700?style=for-the-badge&labelColor=1a1a2e&color=FFD700&logoColor=FFD700"/></a>
 
@@ -31,7 +32,7 @@
 
 ## ✦ Overview
 
-This folder contains the ZyroX Discord bot built on `discord.py v2` alongside a `FastAPI` backend that powers the web dashboard. Everything runs from a single `python CodeX.py` command.
+This folder contains the Aurora Discord bot built on `discord.py v2` alongside a `FastAPI` backend that powers the web dashboard. Everything runs from a single `python CodeX.py` command.
 
 ```
 bot/
@@ -43,7 +44,7 @@ bot/
 │   ├── commands/          All slash & prefix command modules
 │   ├── events/            General Discord event listeners
 │   ├── moderation/        Moderation action modules
-│   └── zyrox/             Core ZyroX feature cogs
+│   └── Aurora/             Core Aurora feature cogs
 ├── core/                  Bot client, context, cog base classes
 ├── games/                 Standalone game logic + button views
 ├── utils/                 Emoji, tools, sync, Cloudflare tunnel
@@ -178,7 +179,7 @@ Create a `.env` file (copy from `.env.example`):
 ```env
 # ── Core ──────────────────────────────────────────────────────────
 TOKEN              = your_discord_bot_token
-brand_name         = 'ZyroX'
+brand_name         = 'Aurora'
 
 # ── Owner IDs (comma-separated — no code changes needed) ──────────
 OWNER_IDS          = 870179991462236170,767979794411028491
@@ -254,7 +255,7 @@ Uses **pycloudflared** — downloads the `cloudflared` binary automatically on f
 **Setup (browser only — no CLI needed):**
 
 1. Go to [one.dash.cloudflare.com](https://one.dash.cloudflare.com) → **Networks → Tunnels → Create a tunnel**
-2. Choose **Cloudflared**, name it (e.g. `zyrox-api`), save
+2. Choose **Cloudflared**, name it (e.g. `Aurora-api`), save
 3. On **Install connector**, copy the token from the command shown:
    ```
    cloudflared tunnel run --token <COPY_THIS_TOKEN>
