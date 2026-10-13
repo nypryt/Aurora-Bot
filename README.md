@@ -11,6 +11,8 @@
 
 <h3>A feature-rich Discord bot paired with a sleek Next.js dashboard</h3>
 
+[FORKED FROM RAYEXO]
+
 <a href="https://nexiohost.in"><img src="https://img.shields.io/badge/⭐%20PREMIUM%20HOSTING-NexioHost-FFD700?style=for-the-badge&labelColor=1a1a2e&color=FFD700&logoColor=FFD700"/></a>
 
 <p>
@@ -148,8 +150,8 @@ ZyroX-CV2-With-Dashboard/
 **1 — Clone the repo**
 
 ```bash
-git clone https://github.com/RayExo/ZyroX-CV2-With-Dashboard
-cd ZyroX-CV2-With-Dashboard/bot
+git clone https://github.com/nypryt/Aurora-Bot
+cd Aurora-Bot/bot
 ```
 
 **2 — Install dependencies**
@@ -173,10 +175,10 @@ Copy `.env.example` to `.env` and fill in the values:
 ```env
 # ── Core ──────────────────────────────────────────────────────────
 TOKEN              = your_discord_bot_token
-brand_name         = 'ZyroX'
+brand_name         = 'Aurora'
 
 # ── Owner IDs (comma-separated) ───────────────────────────────────
-OWNER_IDS          = 870179991462236170,767979794411028491
+OWNER_IDS          = 1538065635223937026
 
 # ── Lavalink ──────────────────────────────────────────────────────
 LAVALINK_HOST      = "your-lavalink-host"
