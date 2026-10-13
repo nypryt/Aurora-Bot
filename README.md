@@ -1,12 +1,12 @@
 <div align="center">
 
 ```
-███████╗██╗   ██╗██████╗  ██████╗ ██╗  ██╗
-╚══███╔╝╚██╗ ██╔╝██╔══██╗██╔═══██╗╚██╗██╔╝
-  ███╔╝  ╚████╔╝ ██████╔╝██║   ██║ ╚███╔╝ 
- ███╔╝    ╚██╔╝  ██╔══██╗██║   ██║ ██╔██╗ 
-███████╗   ██║   ██║  ██║╚██████╔╝██╔╝ ██╗
-╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝
+    _   _   _ ____   ___  ____    _    
+   / \ | | | |  _ \ / _ \|  _ \  / \   
+  / _ \| | | | |_) | | | | |_) |/ _ \  
+ / ___ \ |_| |  _ <| |_| |  _ </ ___ \ 
+/_/   \_\___/|_| \_\\___/|_| \_/_/   \_\
+
 ```
 
 <h3>A feature-rich Discord bot paired with a sleek Next.js dashboard</h3>
@@ -32,7 +32,7 @@
 
 ## ✦ Overview
 
-ZyroX is a fully-featured Discord bot with a modern web dashboard for managing everything from antinuke to music. Built on `discord.py v2`, `FastAPI`, and `Next.js 14` with Tailwind CSS.
+Aurora is a fully-featured Discord bot with a modern web dashboard for managing everything from antinuke to music. Built on `discord.py v2`, `FastAPI`, and `Next.js 14` with Tailwind CSS.
 
 ```
 ZyroX-CV2-With-Dashboard/
